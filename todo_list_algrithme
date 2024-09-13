@@ -1,0 +1,213 @@
+https://github.com/armankhondker/best-leetcode-resources?tab=readme-ov-file
+
+https://medium.com/@goforsupriya/most-popular-leetcode-problems-to-help-crack-coding-interviews-58b07093da2
+
+
+
+Array
+String
+Linked List
+Stack
+Queue
+Binary Tree
+Binary Search Tree (BST)
+Graph
+Hashing
+Dynamic Programming
+Greedy Algorithms
+Backtracking
+Divide and Conquer
+Two Pointers
+Sliding Window
+Bit Manipulation
+Sorting and Searching
+Math
+Recursion
+Design and Implementation
+Union Find (Disjoint Set)
+Trie
+Heap (Priority Queue)
+Topological Sort
+Breadth-First Search (BFS)
+Depth-First Search (DFS)
+Segment Tree
+Fenwick Tree (Binary Indexed Tree)
+Linked List Manipulation
+Tree Traversals
+Geometry
+
+Array:
+Two Sum
+Container With Most Water
+Best Time to Buy and Sell Stock
+Product of Array Except Self
+String:
+Longest Substring Without Repeating Characters
+Valid Parentheses
+Valid Palindrome
+Reverse Words in a String
+Longest Palindromic Substring
+Linked List:
+Reverse Linked List
+Merge Two Sorted Lists
+Remove Nth Node From End of List
+Linked List Cycle
+Intersection of Two Linked Lists
+Stack:
+Min Stack
+Evaluate Reverse Polish Notation
+Daily Temperatures
+Remove All Adjacent Duplicates in String
+Queue:
+Design Circular Queue
+Implement Stack using Queues
+Moving Average from Data Stream
+Queue Reconstruction by Height
+Number of Recent Calls
+Binary Tree:
+Maximum Depth of Binary Tree
+Validate Binary Search Tree
+Binary Tree Level Order Traversal
+Lowest Common Ancestor of a Binary Tree
+Symmetric Tree
+Binary Search Tree (BST):
+Kth Smallest Element in a BST
+Convert Sorted Array to Binary Search Tree
+Validate Binary Search Tree
+Inorder Successor in BST
+Range Sum of BST
+
+Graph:
+Number of Islands
+Course Schedule
+Word Search
+Clone Graph
+Pacific Atlantic Water Flow
+Hashing:
+Group Anagrams
+Valid Sudoku
+Subarray Sum Equals K
+Longest Consecutive Sequence
+Dynamic Programming:
+Climbing Stairs
+Longest Increasing Subsequence
+Maximum Subarray
+Coin Change
+Unique Paths
+
+Greedy Algorithms:
+Jump Game
+Task Scheduler
+Minimum Number of Arrows to Burst Balloons
+Non-overlapping Intervals
+Gas Station
+Backtracking:
+N-Queens
+Letter Combinations of a Phone Number
+Permutations
+Subsets
+Palindrome Partitioning
+Divide and Conquer:
+Merge Sort
+Quick Sort
+Kth Largest Element in an Array
+Maximum Subarray
+Count of Smaller Numbers After Self
+Two Pointers:
+Two Sum II — Input array is sorted
+Trapping Rain Water
+Sliding Window:
+Minimum Window Substring
+Maximum Points You Can Obtain from Cards
+Fruit Into Baskets
+Longest Repeating Character Replacement
+Bit Manipulation:
+Single Number
+Number of 1 Bits
+Missing Number
+Reverse Bits
+Power of Two
+Sorting and Searching:
+Merge Intervals
+First Missing Positive
+Search in Rotated Sorted Array
+Find First and Last Position of Element in Sorted Array
+Math:
+Palindrome Number
+Roman to Integer
+Integer to English Words
+Pow(x, n)
+Happy Number
+Recursion:
+Generate Parentheses
+Combinations
+Design and Implementation:
+LRU Cache
+Implement Trie (Prefix Tree)
+Design Circular Queue
+Union Find (Disjoint Set):
+Friend Circles
+Accounts Merge
+Surrounded Regions
+Redundant Connection
+Trie:
+Add and Search Word — Data structure design
+Word Search II
+Replace Words
+Implement Magic Dictionary
+Heap (Priority Queue):
+Merge k Sorted Lists
+Top K Frequent Elements
+Find Median from Data Stream
+Ugly Number II
+Topological Sort:
+Course Schedule
+Alien Dictionary
+Sequence Reconstruction
+Reconstruct Itinerary
+Course Schedule II
+Breadth-First Search (BFS):
+Word Ladder
+Binary Tree Level Order Traversal
+Minimum Genetic Mutation
+Depth-First Search (DFS):
+Binary Tree Paths
+Flatten Binary Tree to Linked List
+Word Break
+Remove Invalid Parentheses
+All Paths From Source to Target
+Segment Tree:
+Range Sum Query — Mutable
+Count of Range Sum
+The Skyline Problem
+Range Minimum Query (RMQ)
+Fenwick Tree (Binary Indexed Tree):
+Reverse Pairs
+Range Sum Query 2D — Mutable
+Linked List Manipulation:
+Swap Nodes in Pairs
+Tree Traversals:
+Binary Tree Preorder Traversal
+Binary Tree Inorder Traversal
+Binary Tree Postorder Traversal
+N-ary Tree Preorder Traversal
+N-ary Tree Postorder Traversal
+Lowest Common Ancestor of a Binary Search Tree
+Geometry:
+Valid Square
+K Closest Points to Origin
+Number of Boomerangs
+Convex Hull
+Max Points on a Line
+
+
+
+
+
+💪1.滑动窗口： 76、239、480、992
+💪2.双指针：3、15、42、209
+💪3.快慢指针：141、160
+💪4.合并区间：56、252、715、986
+💪5.树的BFS：103、429
+💪6.树的DFS：104、106、112、129
+💪7.子集subset：78、90、784、320

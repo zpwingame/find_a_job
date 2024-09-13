@@ -1,0 +1,55 @@
+
+这个react源码分为几部分 从哪里开始看起
+
+React 源码可以分为几个主要部分，建议从以下顺序开始阅读：
+核心概念和基础架构
+从 packages/react 目录开始，了解 React 的基本定义和 API
+渲染器
+packages/react-dom 是 Web 平台的渲染器
+packages/react-native-renderer 是移动平台的渲染器
+3. 协调器 (Reconciler)
+packages/react-reconciler 包含了 Fiber 架构的实现
+调度器 (Scheduler)
+packages/scheduler 负责任务的优先级管理和调度
+事件系统
+packages/react-dom/src/events 包含了合成事件的实现
+Hooks
+packages/react-reconciler/src/ReactFiberHooks.js 包含了 Hooks 的实现
+7. Context 和 Redux
+packages/react/src/ReactContext.js 了解 Context 的实现
+性能优化相关
+packages/react/src/ReactMemo.js 等文件包含了性能优化的实现
+建议从核心概念开始，逐步深入到渲染器和协调器。这样可以更好地理解 React 的整体架构和工作原理。阅读源码时，结合官方文档和社区资源会更有帮助。
+packages/react-reconciler里面的逻辑怎么看比较方便，帮我梳理一下。同时渲染器、Reconciler、Scheduler之间的关系是什么
+
+要理解 packages/react-reconciler 的逻辑，可以按以下步骤梳理：
+从入口文件开始：
+ReactFiberReconciler.js: 这是 reconciler 的主要入口点
+核心概念：
+ReactFiber.js: Fiber 节点的结构和创建
+ReactFiberWorkLoop.js: 工作循环的实现，包括调度和执行更新
+更新过程：
+ReactFiberBeginWork.js: 开始处理一个 Fiber 节点的工作
+ReactFiberCompleteWork.js: 完成一个 Fiber 节点的工作
+Hooks 实现：
+ReactFiberHooks.js: Hooks 的核心实现
+优先级管理：
+ReactFiberLane.js: Lane 模型的实现，用于优先级管理
+副作用处理：
+ReactFiberCommitWork.js: 提交阶段的工作，处理副作用
+渲染器、Reconciler 和 Scheduler 之间的关系：
+1. 渲染器（Renderer）:
+负责将 React 组件渲染到特定平台（如 DOM、Native）
+例如：react-dom, react-native-renderer
+协调器（Reconciler）:
+实现了 React 的核心算法，包括 Fiber 架构
+负责计算组件树的变化，决定需要更新的内容
+与渲染器解耦，可以支持多平台
+调度器（Scheduler）:
+负责任务的优先级管理和调度
+决定何时执行更新，实现时间切片和并发模式
+关系：
+Reconciler 使用 Scheduler 来调度更新任务
+Reconciler 计算出需要更新的内容后，通过渲染器将变更应用到具体平台
+渲染器会调用 Reconciler 的 API 来创建和更新 Fiber 树
+这三者协同工作，实现了 React 的高效渲染和更新机制。Reconciler 是核心，连接了调度逻辑和平台特定的渲染逻辑。
